@@ -1,0 +1,20 @@
+Angular is a framework designed by google for developing rich internet front end apps that has features like Data Binding, Data Consistancy, Routing Features and majorly SPAs.
+Angular is developing with a large infrastructure which can be downloaded as  boiler-plate code and customized accordingly to UR needs later.
+Angular App contains one or more of the following things:
+Module, Components, Pipes, Services, Directives and Routes. 
+Module is a class that contains the entry point of ur application and the reference of all the components to load before the app begins. An App will usually have one module, however since Angular 6, we have a concept called Lazy loading where modules could be added to UR Application later as additional features of UR App...
+Components are self contained units that as Code, HTML, CSS and an UNIT Testing File written in Jasmine(JS framework for Unit Testing). Code is written using a Sp language based on JS called as TYPESCRIPT. TS is a subset of JS developed by MS for providing Type safe JS.
+Pipes are filters providing for rendering the contents to the HTML file. Filters are HTML interpreters where when applied would give a different output to the HTML. upperCase is a pipe that is used on Strings to render the string as upper case. currency is a filter used to render content as a currency format. Like that U could create UR own custom pipes to provide outputs based on ur logic. | is used to set the filter to ur code.
+Services are sp functions that are used across the components of the Angular App. They are singleton objects. Services use Dependency Injection feature to maintain a single reference across the Angular App...
+Directives are sp instructions that is interpreted by Angular. Some of the directives are @Module, @Pipe, @Service and many more. When a directive is set to a component or a class, it gives a sp meaning and the code will be injected with additional code for some processing of the component. 
+Routes are created to provide links to UR App so that the required components are loaded on request within the same page. Note that Angular apps are SPAs.    
+
+Software:
+Install Nodejs in UR machine: Nodejs acts like server to host ur Angular App.
+Install Angular CLI which is a the command line interface for developing Angular Apps. 
+npm install -g @angular/cli: Command used to install angularCLI.
+ng new AppName: Command used to create Angular App. It takes approx 180 to 240 secs to download the boiler-plate code. 
+A directory would be created by the name of the App. 
+Move to the directory thro the cmd: cd AppName
+ng serve --open: Command used to execute the Angular App which opens the app in the default browser at port no 4200....
+
